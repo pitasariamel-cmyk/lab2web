@@ -1,0 +1,46 @@
+1. Apa fungsi <table>, <tr>, <th>, dan <td>?
+- table: Menjadi pembungkus utama seluruh struktur tabel HTML.
+- tr: Membuat satu baris horizontal di dalam tabel.
+- th: Menentukan sel sebagai judul atau header kolom dan baris.
+- td: Menentukan sel standar untuk menampung data atau isi tabel.
+
+2. Apa perbedaan <th> dan <td>?
+- th digunakan untuk sel pembuat judul. Secara default, teks berhuruf tebal dan berada di tengah sel. Elemen ini juga dibaca oleh screen reader sebagai penanda judul kolom.
+- td digunakan untuk sel data biasa. Secara default, teks berformat normal dan rata kiri.
+
+3. Apa fungsi colspan pada tabel?
+colspan berfungsi untuk menggabungkan dua atau lebih kolom menjadi satu sel horizontal.
+
+4. Apa fungsi <form> dalam HTML?
+form berfungsi sebagai wadah untuk menampung elemen input seperti teks, checkbox, atau tombol yang mengumpulkan data dari pengguna untuk dikirimkan ke server.
+
+5. Apa perbedaan radio button dan checkbox?
+- Radio Button: Digunakan ketika pengguna hanya boleh memilih 1 pilihan dari sekumpulan opsi yang ada.
+- Checkbox: Digunakan ketika pengguna bisa memilih lebih dari 1 pilihan atau tidak memilih sama sekali.
+
+6. Mengapa <label> sebaiknya terhubung dengan id input melalui atribut for?
+- Aksesibilitas: Membantu pengguna screen reader mengetahui input mana yang sedang aktif berdasarkan deskripsi labelnya.
+- Pengalaman Pengguna: Memperbesar area klik. Pengguna cukup mengklik teks label untuk langsung memfokuskan kursor ke input atau mencentang opsi terkait.
+
+7. Apa perbedaan <textarea> dengan input type text?
+- input type text: Hanya untuk memasukkan teks singkat dalam satu baris, misalnya nama atau username.
+- textarea: Digunakan untuk masukan teks panjang dalam banyak baris dan ukurannya bisa diubah oleh pengguna, misalnya alamat atau komentar.
+
+8. Apa fungsi semantic HTML seperti <header>, <nav>, <main>, <section>, <article>, <aside>, dan <footer>?
+- header: Menampung konten pengantar atau navigasi atas seperti logo, judul situs, atau menu utama.
+- nav: Mengelompokkan tautan navigasi utama.
+- main: Menampung konten utama dan unik dari satu halaman Web.
+- section: Mengelompokkan konten yang saling berkaitan secara tematis dalam satu bab atau bagian.
+- article: Menampung konten mandiri yang dapat berdiri sendiri seperti postingan blog atau kartu produk.
+- aside: Menampung konten pelengkap atau sampingan yang tidak berhubungan langsung dengan isi utama seperti sidebar atau iklan.
+- footer: Menampung informasi di bagian bawah halaman seperti hak cipta atau kontak.
+
+9. Apa fungsi required, min, max, dan minlength?
+- required: Memaksa input wajib diisi sebelum formulir dikirim.
+- min: Menentukan nilai angka atau tanggal minimum yang diperbolehkan.
+- max: Menentukan nilai angka atau tanggal maksimum yang diperbolehkan.
+- minlength: Menentukan jumlah karakter teks minimum yang wajib dimasukkan.
+
+10. Apa perbedaan elemen <audio> dan <video>?
+- audio: Digunakan khusus untuk memutar berkas suara atau audio seperti MP3, WAV, OGG tanpa menyertakan area visual video.
+- video: Digunakan untuk memutar berkas video seperti MP4, WebM yang dilengkapi pemutar visual gambar bergerak beserta trek suaranya.
